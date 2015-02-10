@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "jelitox",
-    "repositoryName": "jelitox.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"jelitox","repositoryName":"jelitox.github.io","branch":"master"},"site":{"title":"Javier León","description":"Blog personal","url":"http://jelitox.github.io"},"socialnetwork":{},"theme":{"name":"Casper","url":"http://jelitox.github.io/themes/Casper"}}
