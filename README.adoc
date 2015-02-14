@@ -11,6 +11,12 @@ NOTE: HubPress is actually in preview, if you find some bugs come to see us.
 
 Documentation is rapidly evolving as the project gains momentum. Check back regularly for more tips on how to use HubPress.
 
+== Browser compatibility
+
+HubPress is compatible with Chrome and Chrome for Android.
+
+Chrome Beta and Firefox will be compatible soon, actually we encountered some bugs with IndexedDB, for the preview you should prefer use Chrome.
+
 == Getting Started
 
 === Installation
@@ -110,9 +116,9 @@ The *Theme* is selectable from the list of themes stored in the `/themes` direct
 
 The *Google Analytics* field takes the unique Google Analytics code generated for the site.
 
-===== Disquss Shortname
+===== Disqus Shortname
 
-The *Disquss shortname* field takes your Discuss user name. Only the user name is required, not a link to your profile page.
+The *Disqus shortname* field takes your Disqus URL/shortname that is specified when you register a new site for Disqus. Only the shortname is required, not a link to your profile page.
 
 ==== Social Network
 
@@ -133,6 +139,8 @@ HubPress Editor displays the AsciiDoc code on the left, and the live preview on 
 ===== Blog Title and Headings
 
 The blog title is always Level 1 in an AsciiDoc post. For example, `= Blog Title` sets the name of the Blog Post to `Blog Title`.
+
+A `= Blog Title` is required for saving it successfully.
 
 If you want a first-level heading you use `== First Level Heading`, and so on to create other nested headings.
 
@@ -172,3 +180,4 @@ For example :
 == Credits
 
 Thanks to https://github.com/jaredmorgs[Jared Morgan] for initially tidying up the README you see here, and continuing to be the "docs guy" for HubPress.
+Thanks to https://github.com/takkyuuplayer[takkyuuplayer] to have translated the README into Japanese
