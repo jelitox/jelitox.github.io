@@ -13,9 +13,7 @@ Redes Sociales, facebook, instagram, twitter, pinterest +
 proyectos de emprendimiento Freenlance, +
 Pagina principal.
 
-*******************************************************************
 .{revdate}:  {revnumber} 
-
 [quote, Steve jobs]
 Tu trabajo va a llenar gran parte de tu vida, y la única forma de estar realmente satisfecho con él es hacer lo que creas que es un gran trabajo. Y la única manera de hacer un trabajo genial es amar lo que haces. Si no lo has encontrado, sigue buscando. No te detengas. Al igual que con todos los asuntos del corazón, lo sabrás cuando lo encuentres. Y, como cualquier gran relación, sólo se pondrá mejor y mejor, conforme los años pasen. Así que sigue buscando hasta que lo encuentres. No te detengas.
 ____
