@@ -4,17 +4,17 @@ v1.0, 2015-02-13
 :toc:
 :imagesdir: assets/images
 :homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog, Personal
 
-
-Ingresando Nuevamente a la Blogosfera
-=====================================
+//(Titulo)Ingresando Nuevamente a la Blogosfera
+//=====================================
 // Web page meta data.
-:keywords: AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
-:description: AsciiDoc is a text document format for writing notes, +
-documentation, articles, books, ebooks, slideshows, +
-web pages, man pages and blogs. AsciiDoc files can be +
-translated to many formats including HTML, PDF, EPUB, +
-man page.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
 
 
 .{revdate}: AsciiDoc {revnumber} Released
@@ -35,3 +35,11 @@ Introduction
 AsciiDoc is highly configurable: both the AsciiDoc source file syntax
 and the backend output markups (which can be almost any type of
 SGML/XML markup) can be customized and extended by the user.
+
+AsciiDoc is free software and is licenced under the terms of the 'GNU
+General Public License version 2' (GPLv2).
+
+TIP: The pages you are reading were written using AsciiDoc, to view
+the corresponding AsciiDoc source click on the *Page Source* menu item
+in the left hand margin.
+
