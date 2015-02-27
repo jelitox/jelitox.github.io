@@ -138,46 +138,46 @@ El editor de HubPress muestra el codigo de AsciiDoc a la izquierda, y la vista p
 
 ===== Titulo del blog y encabezamiento
 
-The blog title is always Level 1 in an AsciiDoc post. For example, `= Blog Title` sets the name of the Blog Post to `Blog Title`.
+El titulo del blog siempre estará de primer nivel en la entrada en AsciiDoc. Por ejemplo, `= Titulo del Blog` establece el nombre de la entrada del blog a `Titulo del Blog`.
 
-A `= Blog Title` is required for saving it successfully.
+Una linea `= Titulo del Blog` es requerida para guardar satisfactoriamente la entrada.
 
-If you want a first-level heading you use `== First Level Heading`, and so on to create other nested headings.
+Si quieres colocar un encabezado de primer nivel debes utilizar `== Encabezado de Primer Nivel`, y de esta manera crear los encabezados anidados consecutivamente.
 
-===== Cover Image
+===== Imagen de Portada
 
-If you want to add a cover image to your Blog Post, you must set the `hp-image` attribute.
+Si quieres agregar una imagen de portada a tu entrada del blog, debes agregar el atributo `hp-image`.
 
-For example :
+Por ejemplo :
 [source, asciidoc]
 ----
 = Blog Title
 :hp-image: http://github.com/<username>/<repositoryName>/images/a-cover-image.jpg
 ----
 
-===== Publication date
+===== Fecha de Publicación
 
-By default, the publication date is the date of the day to which you introduced your Blog Post. You can force the publication date by adding the `published_at`
+Por defecto,  la fecha de publicación es la fecha del día que se creo la entrada en el blog. puedes forzar la fecha de publicación agregando el atributo `published_at`
 
-For example :
+Por Ejemplo :
 [source, asciidoc]
 ----
 = Blog Title
 :published_at: 2015-01-31
 ----
 
-===== Tags and Categories
+===== Etiquetas y Categorias 
 
-Actually, only tags are supported. You can add some tags by using the `hp-tags` attribute.
+Actualmente, solo son soportadas etiquetas. Puedes agregar las etiquetas usando el atributo `hp-tags`.
 
-For example :
+Por ejemplo :
 [source, asciidoc]
 ----
 = Blog Title
 :hp-tags: tag1,tag2,tag3
 ----
 
-== Credits
+== Créditos
 
-Thanks to https://github.com/jaredmorgs[Jared Morgan] for initially tidying up the README you see here, and continuing to be the "docs guy" for HubPress.
-Thanks to https://github.com/takkyuuplayer[takkyuuplayer] to have translated the README into Japanese
+Gracias a https://github.com/jaredmorgs[Jared Morgan] para inicialmente poner en orden el archivo README que se ve aquí, y seguir siendo el "Documentador" para HubPress.
+Gracias a https://github.com/takkyuuplayer[takkyuuplayer] por haber traducido el README en Japones.
