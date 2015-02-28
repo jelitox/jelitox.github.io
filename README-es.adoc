@@ -1,6 +1,6 @@
 = HubPress
 
-== Qué es HubPress?
+== ¿Qué es HubPress?
 image::http://hubpress.io/img/editor.png[]
 
 HubPress es una herramienta de codigo abierto, para construir tu extraordinario blog!
