@@ -22,5 +22,6 @@ ____
 
 
 
-TIP: Este blog pretende recopilar las experiencias a lo largo de todos estos años en los cuales me he desempeñado como Sysadmin y Desarrollador, ahora comunmente denominado Devops, siempre he dicho  que trabajar en IT es simplemente genial, más aun cuando tus hobbies encuentran vocación en esta tan exigente profesión. 
-happy hacking!!!
+Este blog pretende recopilar las experiencias a lo largo de todos estos años en los cuales me he desempeñado como Sysadmin y Desarrollador, ahora comunmente denominado Devops, siempre he dicho  que trabajar en IT es simplemente genial, más aun cuando tus hobbies encuentran vocación en esta tan exigente profesión. 
+
+TIP: happy hacking!!!
