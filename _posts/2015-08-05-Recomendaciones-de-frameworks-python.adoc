@@ -1,0 +1,27 @@
+= Recomendaciones de frameworks python.
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-08-05
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,Python,Pyve
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+
+Luego de tantas charlas y debates en el canal de telegram de Pyve, la comunidad Python de venezuela, he logrado publicar acá un compendio de los mensajes más interesantes que se han generado sobre diferentes frameworks en python de hackers con mucha experiencia en el desarrollo de aplicaciones en diferentes herramientas de python.
+
+
+
+
+
+
+
+TIP: happy hacking!!!
