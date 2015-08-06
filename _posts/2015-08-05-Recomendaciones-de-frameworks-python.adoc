@@ -20,6 +20,50 @@ Luego de tantas charlas y debates en el canal de telegram de Pyve, la comunidad 
 
 
 
+Carlos Gustavo Ruiz, [29.07.15 09:58]
+Interesante punto de vista sobre docker en producción http://sirupsen.com/production-docker/
+
+Carlos Gustavo Ruiz, [29.07.15 10:31]
+hace un mes y tanto vi este video http://www.infoq.com/presentations/code-bugs-legacy-pitfalls
+
+Carlos Gustavo Ruiz, [29.07.15 10:31]
+y hoy conseguí este proyecto que permite hacer lo que muestra el pana http://quantifiedcode.github.io/code-is-beautiful/#
+
+Carlos Gustavo Ruiz, [29.07.15 15:55]
+http://www.oreilly.com/programming/free/files/functional-programming-python.pdf
+
+Carlos Gustavo Ruiz, [29.07.15 15:56]
+👆libro gratis de O'Reilly
+
+Cherny Berbesí, [29.07.15 16:12]
+este también está gratis: http://chimera.labs.oreilly.com/books/1234000000754
+
+unknown, [29.07.15 16:56]
+http://inventwithpython.com/
+
+Cherny Berbesí, [29.07.15 17:28]
+https://www.fullstackpython.com/
+
+Alexis Sánchez, [31.07.15 14:59]
+Live Streaming para de developers para developers https://www.livecoding.tv/
+
+Edwind Richzendy Contreras Soto, [01.08.15 15:45]
+#recurso http://www.sitepoint.com/10-time-saving-tips-pythonists/
+
+Edwind Richzendy Contreras Soto, [01.08.15 15:47]
+#recurso #libro http://www.deploypython.com/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
