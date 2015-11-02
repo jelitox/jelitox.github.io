@@ -14,3 +14,7 @@ proyectos de emprendimiento Freenlance, +
 Pagina principal.
 
 .{revdate}:  {revnumber} 
+
+
+https://blog.serverdensity.com/80-linux-monitoring-tools-know/
+http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/
