@@ -19,7 +19,7 @@ Pagina principal.
 
 ### Paquetes basicos 
 
-locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-cert ca-certificates libnet-dns-perl iproute psad libpam-cracklib locales util-linux-locales bridge-utils iftop sysstat snmp smartmontools lm-sensors htop iftop powertop apmd vim vim-scripts bash-completion perl-modules python-minimal python-pip python-setuptools ruby php5-cli git-core xfsprogs btrfs-tools dosfstools ntfs-3g cifs-utils firmware-linux firmware-linux-free firmware-linux-nonfree initramfs-tools lsb-release localepurge hdparm inkscape dia gdebi geany apt-transport-https openjdk-7-jre openjdk-7-jre-headless virtualbox vagrant vlc exaile libavcodec-extra 
+locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-cert ca-certificates libnet-dns-perl iproute psad libpam-cracklib locales util-linux-locales bridge-utils iftop sysstat snmp smartmontools lm-sensors htop iftop powertop apmd vim vim-scripts bash-completion perl-modules python-minimal python-pip python-setuptools ruby php5-cli git-core xfsprogs btrfs-tools dosfstools ntfs-3g cifs-utils firmware-linux firmware-linux-free firmware-linux-nonfree initramfs-tools lsb-release localepurge hdparm inkscape dia gdebi geany apt-transport-https openjdk-7-jre openjdk-7-jre-headless virtualbox vagrant vlc exaile libavcodec-extra guake pgadmin3
 
 ### Instalar Skype
 https://wiki.debian.org/skype#Debian_8_.22Jessie.22
