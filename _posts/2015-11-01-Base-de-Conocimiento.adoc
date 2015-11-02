@@ -1,0 +1,30 @@
+= Base de Conocimiento .
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-11-01
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,Python,Pyve
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+
+Ocurre que a diario consumimos multiples contenidos técnicos y normalmente no recordamos y quizás no tenemos un mecanismo para almacenar y consultar luego estos contenidos más allá de agregarlos a los marcadores, por esto creo esta serie de post que vienen a ser como la bitacora de consulta personal de todos los enlaces de información relevante a cuatro topicos definidos:
+
+- Sisadmin tools & Hacks 
+- Deploys 
+- Backend Developers 
+- Web & Frontend
+
+
+TIP: happy hacking!!!
+
+
+= Knowledge Base
