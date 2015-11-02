@@ -1,0 +1,21 @@
+= Enlaces Utiles Developer
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-11-01
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,Python,Pyve
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+Javascripts
+
+https://github.com/getify/You-Dont-Know-JS
+http://javascriptissexy.com/how-to-learn-javascript-properly/
