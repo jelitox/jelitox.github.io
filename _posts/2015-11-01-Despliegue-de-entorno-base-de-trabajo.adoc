@@ -1,0 +1,101 @@
+= Despliegue de entorno base de trabajo
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-11-01
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,Python,Pyve
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+
+
+### Paquetes basicos 
+
+locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-cert ca-certificates libnet-dns-perl iproute psad libpam-cracklib locales util-linux-locales bridge-utils iftop sysstat snmp smartmontools lm-sensors htop iftop powertop apmd vim vim-scripts bash-completion perl-modules python-minimal python-pip python-setuptools ruby php5-cli git-core xfsprogs btrfs-tools dosfstools ntfs-3g cifs-utils firmware-linux firmware-linux-free firmware-linux-nonfree initramfs-tools lsb-release localepurge hdparm inkscape dia gdebi geany apt-transport-https openjdk-7-jre openjdk-7-jre-headless virtualbox vagrant vlc exaile libavcodec-extra 
+
+### Instalar Skype
+https://wiki.debian.org/skype#Debian_8_.22Jessie.22
+
+### Instalar Docker 
+https://docs.docker.com/installation/debian/#debian-jessie-80-64-bit
+Agregar Imagenes Docker:
+docker pull odoo -> https://hub.docker.com/_/odoo/
+docker pull postgres -> https://hub.docker.com/_/postgres/
+docker pull mysql -> https://hub.docker.com/_/mysql/
+docker pull schmunk42/yii2-app-basic	
+docker pull wordpress https://hub.docker.com/_/wordpress/
+docker pull k3v0r/janus-gateway
+docker pull node -> https://hub.docker.com/_/node/
+docker pull httpd -> https://hub.docker.com/_/httpd/ 
+docker pull nginx -> https://hub.docker.com/_/nginx/
+docker pull debian -> https://hub.docker.com/_/debian/
+docker pull ubuntu -> https://hub.docker.com/_/ubuntu/
+docker pull fedora -> https://hub.docker.com/_/fedora/
+docker pull django ->  https://hub.docker.com/_/django/
+docker pull mongo -> https://hub.docker.com/_/mongo/
+docker pull mariadb -> https://hub.docker.com/_/mariadb/
+docker pull redis -> https://hub.docker.com/_/redis/
+docker pull cassandra -> https://hub.docker.com/_/cassandra/
+docker pull couchbase -> https://hub.docker.com/_/couchbase/
+docker pull drupal -> https://hub.docker.com/_/drupal/
+docker pull elasticsearch -> https://hub.docker.com/_/elasticsearch/
+docker pull php -> https://hub.docker.com/_/php/
+docker pull owncloud -> https://hub.docker.com/_/owncloud/ 
+docker pull jenkins -> https://hub.docker.com/_/jenkins/
+docker pull gitlab/gitlab-ce -> https://hub.docker.com/r/gitlab/gitlab-ce/ 
+docker pull sebp/elk -> https://hub.docker.com/r/sebp/elk/
+docker pull htdvisser/taiga-back -> https://hub.docker.com/r/htdvisser/taiga-back/
+docker pull htdvisser/taiga-front-dist -> https://hub.docker.com/r/htdvisser/taiga-front-dist/
+docker pull zabbix/zabbix-server-2.4 -> https://hub.docker.com/r/zabbix/zabbix-server-2.4/ 
+docker pull zabbix/zabbix-db-mariadb -> https://hub.docker.com/r/zabbix/zabbix-db-mariadb/
+docker pull coudot/lemonldap-ng -> https://hub.docker.com/r/coudot/lemonldap-ng/ 
+docker pull p0bailey/docker-flask -> https://hub.docker.com/r/p0bailey/docker-flask/
+docker pull dinkel/openldap -> https://hub.docker.com/r/dinkel/openldap/ 	
+
+#Pendientes 
+docker pull debian/debhelper -> todo lo necesario para empaquetar 
+
+
+	# Correr Odoo dentro de Docker 
+	docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres
+	docker run -p 127.0.0.1:8069:8069 --name odoo --link db:db -t odoo
+
+	# Proyectos en Yii2 
+	docker run -p 8888:80 schmunk42/yii2-app-basic
+	
+	# Proyectos en Wordpress 
+	docker run --name some-wordpress --link some-mysql:mysql -d wordpress
+
+	# Proyecto con Janus 
+
+### Instalar Composer 
+https://styde.net/instalar-y-actualizar-paquetes-con-composer/
+http://librosweb.es/libro/composer/capitulo_1/instalacion_en_servidores_linux.html
+
+
+### Agregar homestead 
+https://styde.net/crea-entornos-de-desarrollo-para-laravel-con-homestead/
+https://styde.net/como-instalar-y-configurar-laravel-homestead-2-0/
+
+
+vagrant box add laravel/homestead
+composer global require "laravel/homestead=~2.0"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> /home/user/.bashrc
+
+### Instalar node 
+https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager?utm_source=[deliciuos]&utm_medium=twitter#debian-and-ubuntu-based-linux-distributions
+
+
+
+
+
+TIP: happy hacking!!!
