@@ -1,0 +1,52 @@
+= Enlaces Utiles Deploy
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-11-01
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,Python,Pyve
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+
+
+#Docker 
+http://radar.oreilly.com/2015/06/an-introduction-to-immutable-infrastructure.html
+http://blog.50projects.com/2014/08/build-your-own-private-docker-registry.html
+http://sirupsen.com/production-docker/
+http://thenewstack.io/ebookseries/
+http://www.sitepoint.com/docker-and-dockerfiles-made-easy/
+https://labs.ctl.io/introducing-flatcar-tool-for-creating-docker-ready-rails-projects/
+http://blog.hypriot.com/post/get-your-all-in-one-docker-playground-now-hypriotos-reloaded/
+http://technologyconversations.com/2015/05/18/centralized-system-and-docker-logging-with-elk-stack/
+http://cb.platan.us/dockerize-your-rails-app
+https://github.com/phenobarbital/lxc-tools
+http://romain.dorgueil.net/blog/en/docker/2014/12/20/docker-setup-a-private-registry.html
+https://github.com/wsargent/docker-cheat-sheet
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04
+https://docs.docker.com/registry/deploying/
+
+https://github.com/rlidwka/sinopia
+https://supermarket.chef.io/cookbooks/sinopia
+https://forge.puppetlabs.com/saheba/sinopia
+
+
+
+
+Pipeline + docker + CI + CD + DevOps
+spotify con docker. 
+Nosotros tenemos unos scripts medio avanzados que convierten el .travis de los ci en un docker listo para programar.... Y en 15 minutos también tenemos copias exactas de producción
+En el mundo de los dockers cada quien cocina su receta usando diferentes herramientas
+yo uso docker + ansible sobre ubuntu
+y las recetas las escrigo en pure bash
+pero hay gente que combina Cheff o Puppet
+A mi me gusta la semántica de los dockerfile es básicamente lo mismo
+y combinado con ansible es brutal
+el frontend de ansible es privativo pero todo el backend es opensource escrito en python
