@@ -26,7 +26,9 @@ https://wiki.debian.org/skype#Debian_8_.22Jessie.22
 
 ### Instalar Docker 
 https://docs.docker.com/installation/debian/#debian-jessie-80-64-bit
+
 Agregar Imagenes Docker:
+
 docker pull odoo -> https://hub.docker.com/_/odoo/
 docker pull postgres -> https://hub.docker.com/_/postgres/
 docker pull mysql -> https://hub.docker.com/_/mysql/
@@ -59,6 +61,13 @@ docker pull zabbix/zabbix-db-mariadb -> https://hub.docker.com/r/zabbix/zabbix-d
 docker pull coudot/lemonldap-ng -> https://hub.docker.com/r/coudot/lemonldap-ng/ 
 docker pull p0bailey/docker-flask -> https://hub.docker.com/r/p0bailey/docker-flask/
 docker pull dinkel/openldap -> https://hub.docker.com/r/dinkel/openldap/ 	
+
+# agregar todas las imagenes de un solo comando:
+
+docker pull odoo && docker pull postgres && docker pull mysql && docker pull schmunk42/yii2-app-basic	&& docker pull wordpress && docker pull k3v0r/janus-gateway && docker pull node && docker pull httpd && docker pull nginx && docker pull debian && docker pull ubuntu && docker pull fedora && docker pull django && docker pull mongo && docker pull mariadb && docker pull redis && docker pull cassandra && docker pull couchbase && docker pull drupal && docker pull elasticsearch && docker pull php && docker pull owncloud && docker pull jenkins && docker pull gitlab/gitlab-ce && docker pull sebp/elk && docker pull htdvisser/taiga-back && docker pull  htdvisser/taiga-front-dist && docker pull zabbix/zabbix-server-2.4 && docker pull zabbix/zabbix-db-mariadb && docker pull coudot/lemonldap-ng && docker pull p0bailey/docker-flask && docker pull dinkel/openldap 
+
+
+
 
 #Pendientes 
 docker pull debian/debhelper -> todo lo necesario para empaquetar 
