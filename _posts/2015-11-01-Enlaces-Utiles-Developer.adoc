@@ -17,5 +17,6 @@ Pagina principal.
 
 Javascripts
 
-https://github.com/getify/You-Dont-Know-JS
-http://javascriptissexy.com/how-to-learn-javascript-properly/
+Libro tu no sabes JS -> https://github.com/getify/You-Dont-Know-JS
+Aprender JS -> http://javascriptissexy.com/how-to-learn-javascript-properly/
+Reescribir alertas con js -> http://t4t5.github.io/sweetalert/
