@@ -1,0 +1,29 @@
+= Manejo Eficiente del Tiempo.
+Javier León (@jelitox) <jel1284@gmail.com>
+v1.0, 2015-12-26
+:toc:
+:imagesdir: assets/images
+:homepage: http://blog.javierleon.com.ve
+:hp-tags: Blog,Personal,productividad,tiempo, eficiencia
+// Web page meta data.
+:keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
+:description: Blog personal y Profesional, +
+Ingeniero en Informatica, desarrollador y Administrador de Sistemas e infraestructura, +
+Redes Sociales, facebook, instagram, twitter, pinterest +
+proyectos de emprendimiento Freenlance, +
+Pagina principal.
+
+.{revdate}:  {revnumber} 
+
+
+Uno de los temas pocamente valorados, principalmente por los latinoamericanos es el manejo del tiempo, nos ocurre que a diario realizamos multiples tareas, y nos convertimos (o creemos convertirnos) en una especie de ser humano superpoderoso evolucionado el "Todero" (Multitask), asumimos multiples actividades paralelas y como reza el dicho "el que hornea dos conejos siempre uno se quema", y no quizás por no lograr finalizar las actividades propuestas, sino por no evaluar las energias gastadas, la calidad del trabajo generado sin considerar que ser efectivo en los resultados obtenidos no es garantia de hacer las cosas bien.
+
+Enlaces Recomendados: 
+
+- http://www.smashingmagazine.com/2015/12/getting-work-done-without-simply-working-hours/ 
+- http://www.smashingmagazine.com/2009/10/how-to-persuade-your-users-boss-or-clients/
+- http://jamesclear.com/stay-focused
+
+
+
+TIP: happy hacking!!!
