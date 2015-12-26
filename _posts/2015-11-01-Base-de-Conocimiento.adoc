@@ -1,4 +1,4 @@
-= Base de Conocimiento .
+= Base de Conocimiento
 Javier León (@jelitox) <jel1284@gmail.com>
 v1.0, 2015-11-01
 :toc:
@@ -25,6 +25,3 @@ Ocurre que a diario consumimos multiples contenidos técnicos y normalmente no r
 
 
 TIP: happy hacking!!!
-
-
-= Knowledge Base
