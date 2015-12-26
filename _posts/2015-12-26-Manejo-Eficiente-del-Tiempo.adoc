@@ -1,4 +1,4 @@
-= Manejo Eficiente del Tiempo.
+= Manejo Eficiente del Tiempo
 Javier León (@jelitox) <jel1284@gmail.com>
 v1.0, 2015-12-26
 :toc:
@@ -16,7 +16,9 @@ Pagina principal.
 .{revdate}:  {revnumber} 
 
 
-Uno de los temas pocamente valorados, principalmente por los latinoamericanos es el manejo del tiempo, nos ocurre que a diario realizamos multiples tareas, y nos convertimos (o creemos convertirnos) en una especie de ser humano superpoderoso evolucionado el "Todero" (Multitask), asumimos multiples actividades paralelas y como reza el dicho "el que hornea dos conejos siempre uno se quema", y no quizás por no lograr finalizar las actividades propuestas, sino por no evaluar las energias gastadas, la calidad del trabajo generado sin considerar que ser efectivo en los resultados obtenidos no es garantia de hacer las cosas bien.
+Uno de los temas poco valorados, principalmente por los latinoamericanos es el manejo del tiempo, nos ocurre que a diario realizamos múltiples tareas, y nos convertimos (o creemos convertirnos) en una especie de ser humano todopoderoso evolucionado en el "Todero" (Multitask), asumimos múltiples actividades paralelas y como reza el dicho "el que hornea dos conejos siempre uno se quema", y no quizás por no lograr finalizar las actividades propuestas, sino por no evaluar las energías gastadas, la calidad del trabajo generado sin considerar que ser efectivo en los resultados obtenidos no es garantía de hacer las cosas bien.
+
+Es por ello que es sumamente importante realizar un proceso introspectivo de revisión constante de nuestros hábitos, definir nuestra metodología de trabajo que supere nuestra entropía interna y nos ayude a definir una mejor organización de nuestro tiempo, que al fin y al cabo es el recurso más valioso con el que contamos y si no nos hemos dado cuenta es mucho más finito de lo que creemos, aquí una serie de post que tratan el tema con una interesante óptica y nos convidan a iniciar ese proceso de revisión  constantemente para ser mejores profesionales, mejores personas y finalmente lograr ser felices e independientes... toda una utopía no?
 
 Enlaces Recomendados: 
 
