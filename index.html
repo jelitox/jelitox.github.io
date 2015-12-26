@@ -25,11 +25,12 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="http://blog.javierleon.com.ve/themes/uno/assets/css/uno.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//blog.javierleon.com.ve/themes/uno/assets/css/uno.css?v=1.0.0" />
 
     <link rel="canonical" href="http://blog.javierleon.com.ve" />
     <meta name="generator" content="Ghost ?" />
     <link rel="alternate" type="application/rss+xml" title="Javier León" href="http://blog.javierleon.com.ve/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 
 </head>
 <body class="home-template no-js">
@@ -160,6 +161,12 @@
 
     <ol class="post-list">
       <li>
+        <h2 class="post-list__post-title post-title"><a href="http://blog.javierleon.com.ve/2015/11/01/Base-de-Conocimiento.html" title="link to Base de Conocimiento">Base de Conocimiento</a></h2>
+        <p class="excerpt">2015-11-01:  1.0 Ocurre que a diario consumimos multiples contenidos técnicos y normalmente no recordamos y quizás no tenemos un mecanismo para almacenar y consultar luego estos contenidos más allá de agregarlos a los marcadores, por esto creo esta serie de post que vienen a ser como la bitacora de&hellip;</p>
+        <div class="post-list__meta"><time datetime="01 Nov 2015" class="post-list__meta--date date">01 Nov 2015</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.javierleon.com.ve/tag/Blog">Blog</a>, <a href="http://blog.javierleon.com.ve/tag/Personal">Personal</a>, <a href="http://blog.javierleon.com.ve/tag/Python">Python</a>, <a href="http://blog.javierleon.com.ve/tag/Pyve">Pyve</a></span></div>
+        <hr class="post-list__divider" />
+      </li>
+      <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.javierleon.com.ve/2015/02/10/Trabajar-con-pasion-like-a-geek.html" title="link to Trabajar con pasión like a geek!!!">Trabajar con pasión like a geek!!!</a></h2>
         <p class="excerpt">2015-02-13:  1.0 Tu trabajo va a llenar gran parte de tu vida, y la única forma de estar realmente satisfecho con él es hacer lo que creas que es un gran trabajo. Y la única manera de hacer un trabajo genial es amar lo que haces. Si no lo&hellip;</p>
         <div class="post-list__meta"><time datetime="10 Feb 2015" class="post-list__meta--date date">10 Feb 2015</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.javierleon.com.ve/tag/Blog">Blog</a>, <a href="http://blog.javierleon.com.ve/tag/Personal">Personal</a></span></div>
@@ -184,9 +191,20 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
 
-    <script type="text/javascript" src="http://blog.javierleon.com.ve/themes/uno/assets/js/main.js?v=1.0.0"></script>
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//blog.javierleon.com.ve/themes/uno/assets/js/main.js?v=1.0.0"></script>
     
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
