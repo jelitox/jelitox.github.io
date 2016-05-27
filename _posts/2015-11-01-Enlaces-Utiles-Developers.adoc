@@ -1,10 +1,10 @@
-= Enlaces Utiles Developer
+= Enlaces Utiles Developers
 Javier León (@jelitox) <jel1284@gmail.com>
 v1.0, 2015-11-01
 :toc:
 :imagesdir: assets/images
 :homepage: http://blog.javierleon.com.ve
-:hp-tags: Blog,Personal,Python,Pyve
+:hp-tags: Blog, Personal, Python,Js, Php, SQL, Html5, Css3
 // Web page meta data.
 :keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
 :description: Blog personal y Profesional, +
@@ -14,8 +14,9 @@ proyectos de emprendimiento Freenlance, +
 Pagina principal.
 
 .{revdate}:  {revnumber} 
+En la Continua busqueda de recursos para mejorar nuestros conocimientos, existe una variedad de elementos que nodebemos dejar pasar entro los que recomiendo:
 
-Javascripts
+# Javascripts
 
 - Libro tu no sabes JS -> https://github.com/getify/You-Dont-Know-JS
 - Aprender JS -> http://javascriptissexy.com/how-to-learn-javascript-properly/
