@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Despliegue de entorno base de trabajo (Debian 8) - Javier León</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Despliegue de entorno base de trabajo (Debian 8)">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Despliegue de entorno base de trabajo (Debian 8)">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//blog.javierleon.com.ve/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="http://blog.javierleon.com.ve/2015/11/01/Despliegue-de-entorno-base-de-trabajo-Debian-8.html" />
+    
+    <meta property="og:site_name" content="Javier León" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Despliegue de entorno base de trabajo (Debian 8)" />
+    <meta property="og:description" content="Paquetes basicos 2015-11-01:  1.0 locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-..." />
+    <meta property="og:url" content="http://blog.javierleon.com.ve/2015/11/01/Despliegue-de-entorno-base-de-trabajo-Debian-8.html" />
+    <meta property="article:published_time" content="2015-11-01T04:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-05-27T23:31:18.835Z" />
+    <meta property="article:tag" content="Blog" />
+    <meta property="article:tag" content="Personal" />
+    <meta property="article:tag" content="Work" />
+    <meta property="article:tag" content="Php" />
+    <meta property="article:tag" content="Python" />
+    <meta property="article:tag" content="JS" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Despliegue de entorno base de trabajo (Debian 8)" />
+    <meta name="twitter:description" content="Paquetes basicos 2015-11-01:  1.0 locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-..." />
+    <meta name="twitter:url" content="http://blog.javierleon.com.ve/2015/11/01/Despliegue-de-entorno-base-de-trabajo-Debian-8.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Javier León",
+    "author": {
+        "@type": "Person",
+        "name": "Javier León",
+        "image": "https://avatars.githubusercontent.com/u/1095986?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.javierleon.com.ve"
+    },
+    "headline": "Despliegue de entorno base de trabajo (Debian 8)",
+    "url": "http://blog.javierleon.com.ve/2015/11/01/Despliegue-de-entorno-base-de-trabajo-Debian-8.html",
+    "datePublished": "2015-11-01T04:00:00.000Z",
+    "dateModified": "2016-05-27T23:31:18.835Z",
+    "keywords": "Blog, Personal, Work, Php,  Python,  JS",
+    "description": "Paquetes basicos 2015-11-01:  1.0 locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Javier León" href="http://blog.javierleon.com.ve/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template tag-Blog tag-Personal tag-Work tag-Php tag-Python tag-JS no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " >
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <h1 class="panel-cover__title panel-title"><a href="http://blog.javierleon.com.ve" title="link to homepage for Javier León">Javier León</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description">Blog personal - Bio - Pics - Code - Devops - Social Networks</p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="http://blog.javierleon.com.ve/#blog" title="link to Javier León blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="https://www.facebook.com/jelitox" title="Facebook account">
+                      <i class='icon icon-social-facebook'></i>
+                      <span class="label">Facebook</span>
+                    </a>
+                  </li>
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="https://twitter.com/jelitox" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+                  <!-- Google Plus -->
+                  <li class="navigation__item">
+                    <a href="https://plus.google.com/u/0/100226499995699045436" title="Google+ account">
+                      <i class='icon icon-social-google-plus'></i>
+                      <span class="label">Google-plus</span>
+                    </a>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/jelitox" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://instagram.com/jelitox" title="Instagram account">
+                      <i class='icon icon-social-instagram'></i>
+                      <span class="label">Instagram</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://www.pinterest.com/jelitox" title="Pinterest account">
+                      <i class='icon icon-social-pinterest'></i>
+                      <span class="label">Pinterest</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://www.flickr.com/photos/12543973@N00/" title="Flickr account">
+                      <i class='icon icon-social-flickr'></i>
+                      <span class="label">Flickr</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- LinkedIn -->
+                  <li class="navigation__item">
+                    <a href="https://ve.linkedin.com/in/jelitox/en" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:jel1284@gmail.com" title="Email jel1284@gmail.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="01 Nov 2015" class="post-meta__date date">01 Nov 2015</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.javierleon.com.ve/tag/Blog">Blog</a>, <a href="http://blog.javierleon.com.ve/tag/Personal">Personal</a>, <a href="http://blog.javierleon.com.ve/tag/Work">Work</a>, <a href="http://blog.javierleon.com.ve/tag/Php">Php</a>, <a href="http://blog.javierleon.com.ve/tag/Python"> Python</a>, <a href="http://blog.javierleon.com.ve/tag/JS"> JS</a></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1095986?v=3" alt="profile image for Javier León" class="avatar post-meta__avatar" /> by Javier León</span>
+      </div>
+      <h1 class="post-title">Despliegue de entorno base de trabajo (Debian 8)</h1>
+    </header>
+
+    <section class="post tag-Blog tag-Personal tag-Work tag-Php tag-Python tag-JS">
+      <div class="sect2">
+<h3 id="_paquetes_basicos">Paquetes basicos</h3>
+<div class="paragraph">
+<div class="title">2015-11-01:  1.0</div>
+<p>locate rsync bash-completion wget tcpdump ntpdate finger links lynx ccze ethtool rcconf deborphan less screen tree curl wget telnet iputils-ping dnsutils lsof patch irqbalance acpi-support lvm2 powermgmt-base openssh-server sudo ssh-askpass ssl-cert ca-certificates libnet-dns-perl iproute psad libpam-cracklib locales util-linux-locales bridge-utils iftop sysstat snmp smartmontools lm-sensors htop iftop powertop apmd vim vim-scripts bash-completion perl-modules python-minimal python-pip python-setuptools ruby php5-cli git-core xfsprogs btrfs-tools dosfstools ntfs-3g cifs-utils firmware-linux firmware-linux-free firmware-linux-nonfree initramfs-tools lsb-release localepurge hdparm inkscape dia gdebi geany apt-transport-https openjdk-7-jre openjdk-7-jre-headless virtualbox vagrant vlc exaile libavcodec-extra guake pgadmin3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_instalar_skype">Instalar Skype</h3>
+<div class="paragraph">
+<p><a href="https://wiki.debian.org/skype#Debian_8_.22Jessie.22" class="bare">https://wiki.debian.org/skype#Debian_8_.22Jessie.22</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_instalar_docker">Instalar Docker</h3>
+<div class="paragraph">
+<p><a href="https://docs.docker.com/installation/debian/#debian-jessie-80-64-bit" class="bare">https://docs.docker.com/installation/debian/#debian-jessie-80-64-bit</a></p>
+</div>
+<div class="paragraph">
+<p>Agregar Imagenes Docker:</p>
+</div>
+<div class="paragraph">
+<p>docker pull odoo &#8594; <a href="https://hub.docker.com/_/odoo/" class="bare">https://hub.docker.com/_/odoo/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull postgres &#8594; <a href="https://hub.docker.com/_/postgres/" class="bare">https://hub.docker.com/_/postgres/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull mysql &#8594; <a href="https://hub.docker.com/_/mysql/" class="bare">https://hub.docker.com/_/mysql/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull schmunk42/yii2-app-basic</p>
+</div>
+<div class="paragraph">
+<p>docker pull wordpress <a href="https://hub.docker.com/_/wordpress/" class="bare">https://hub.docker.com/_/wordpress/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull k3v0r/janus-gateway</p>
+</div>
+<div class="paragraph">
+<p>docker pull node &#8594; <a href="https://hub.docker.com/_/node/" class="bare">https://hub.docker.com/_/node/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull httpd &#8594; <a href="https://hub.docker.com/_/httpd/" class="bare">https://hub.docker.com/_/httpd/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull nginx &#8594; <a href="https://hub.docker.com/_/nginx/" class="bare">https://hub.docker.com/_/nginx/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull debian &#8594; <a href="https://hub.docker.com/_/debian/" class="bare">https://hub.docker.com/_/debian/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull ubuntu &#8594; <a href="https://hub.docker.com/_/ubuntu/" class="bare">https://hub.docker.com/_/ubuntu/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull fedora &#8594; <a href="https://hub.docker.com/_/fedora/" class="bare">https://hub.docker.com/_/fedora/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull django &#8594;  <a href="https://hub.docker.com/_/django/" class="bare">https://hub.docker.com/_/django/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull mongo &#8594; <a href="https://hub.docker.com/_/mongo/" class="bare">https://hub.docker.com/_/mongo/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull mariadb &#8594; <a href="https://hub.docker.com/_/mariadb/" class="bare">https://hub.docker.com/_/mariadb/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull redis &#8594; <a href="https://hub.docker.com/_/redis/" class="bare">https://hub.docker.com/_/redis/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull cassandra &#8594; <a href="https://hub.docker.com/_/cassandra/" class="bare">https://hub.docker.com/_/cassandra/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull couchbase &#8594; <a href="https://hub.docker.com/_/couchbase/" class="bare">https://hub.docker.com/_/couchbase/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull drupal &#8594; <a href="https://hub.docker.com/_/drupal/" class="bare">https://hub.docker.com/_/drupal/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull elasticsearch &#8594; <a href="https://hub.docker.com/_/elasticsearch/" class="bare">https://hub.docker.com/_/elasticsearch/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull php &#8594; <a href="https://hub.docker.com/_/php/" class="bare">https://hub.docker.com/_/php/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull owncloud &#8594; <a href="https://hub.docker.com/_/owncloud/" class="bare">https://hub.docker.com/_/owncloud/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull jenkins &#8594; <a href="https://hub.docker.com/_/jenkins/" class="bare">https://hub.docker.com/_/jenkins/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull gitlab/gitlab-ce &#8594; <a href="https://hub.docker.com/r/gitlab/gitlab-ce/" class="bare">https://hub.docker.com/r/gitlab/gitlab-ce/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull sebp/elk &#8594; <a href="https://hub.docker.com/r/sebp/elk/" class="bare">https://hub.docker.com/r/sebp/elk/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull htdvisser/taiga-back &#8594; <a href="https://hub.docker.com/r/htdvisser/taiga-back/" class="bare">https://hub.docker.com/r/htdvisser/taiga-back/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull htdvisser/taiga-front-dist &#8594; <a href="https://hub.docker.com/r/htdvisser/taiga-front-dist/" class="bare">https://hub.docker.com/r/htdvisser/taiga-front-dist/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull zabbix/zabbix-server-2.4 &#8594; <a href="https://hub.docker.com/r/zabbix/zabbix-server-2.4/" class="bare">https://hub.docker.com/r/zabbix/zabbix-server-2.4/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull zabbix/zabbix-db-mariadb &#8594; <a href="https://hub.docker.com/r/zabbix/zabbix-db-mariadb/" class="bare">https://hub.docker.com/r/zabbix/zabbix-db-mariadb/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull coudot/lemonldap-ng &#8594; <a href="https://hub.docker.com/r/coudot/lemonldap-ng/" class="bare">https://hub.docker.com/r/coudot/lemonldap-ng/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull p0bailey/docker-flask &#8594; <a href="https://hub.docker.com/r/p0bailey/docker-flask/" class="bare">https://hub.docker.com/r/p0bailey/docker-flask/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull dinkel/openldap &#8594; <a href="https://hub.docker.com/r/dinkel/openldap/" class="bare">https://hub.docker.com/r/dinkel/openldap/</a></p>
+</div>
+<div class="paragraph">
+<p>docker pull debian/debhelper &#8594; todo lo necesario para empaquetar</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Correr Odoo dentro de Docker
+docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres
+docker run -p 127.0.0.1:8069:8069 --name odoo --link db:db -t odoo</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Proyectos en Yii2
+docker run -p 8888:80 schmunk42/yii2-app-basic</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Proyectos en Wordpress
+docker run --name some-wordpress --link some-mysql:mysql -d wordpress</pre>
+</div>
+</div>
+</div>
+<h1 id="_otras_opciones_de_entornos" class="sect0">Otras Opciones de entornos:</h1>
+<div class="literalblock">
+<div class="content">
+<pre># Instalar Composer
+https://styde.net/instalar-y-actualizar-paquetes-con-composer/
+http://librosweb.es/libro/composer/capitulo_1/instalacion_en_servidores_linux.html</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Instalar homestead
+https://styde.net/crea-entornos-de-desarrollo-para-laravel-con-homestead/
+https://styde.net/como-instalar-y-configurar-laravel-homestead-2-0/
+vagrant box add laravel/homestead
+composer global require "laravel/homestead=~2.0"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' &gt;&gt; /home/user/.bashrc</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Instalar node
+https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager?    utm_source=[deliciuos]&amp;utm_medium=twitter#debian-and-ubuntu-based-linux-distributions</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Setting up Django with Nginx, Gunicorn, virtualenv, supervisor and PostgreSQL
+http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+happy hacking!!!
+</td>
+</tr>
+</table>
+</div>
+    </section>
+
+  </article>
+
+  
+  <section class="post-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'jelitox'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </section>
+  
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//blog.javierleon.com.ve/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '&lt;script&gt;   (function(i,s,o,g,r,a,m){i[&#x27;GoogleAnalyticsObject&#x27;]=r;i[r]=i[r]||function(){   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   })(window,document,&#x27;script&#x27;,&#x27;//www.google-analytics.com/analytics.js&#x27;,&#x27;ga&#x27;);    ga(&#x27;create&#x27;, &#x27;UA-59751077-1&#x27;, &#x27;auto&#x27;);   ga(&#x27;send&#x27;, &#x27;pageview&#x27;);  &lt;/script&gt;', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
