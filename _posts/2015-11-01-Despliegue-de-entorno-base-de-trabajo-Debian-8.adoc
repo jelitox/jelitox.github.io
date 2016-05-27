@@ -1,4 +1,4 @@
-= Despliegue de entorno base de trabajo
+= Despliegue de entorno base de trabajo (Debian 8)
 Javier León (@jelitox) <jel1284@gmail.com>
 v1.0, 2015-11-01
 :toc:
@@ -30,46 +30,70 @@ https://docs.docker.com/installation/debian/#debian-jessie-80-64-bit
 Agregar Imagenes Docker:
 
 docker pull odoo -> https://hub.docker.com/_/odoo/
+
 docker pull postgres -> https://hub.docker.com/_/postgres/
+
 docker pull mysql -> https://hub.docker.com/_/mysql/
+
 docker pull schmunk42/yii2-app-basic	
+
 docker pull wordpress https://hub.docker.com/_/wordpress/
+
 docker pull k3v0r/janus-gateway
+
 docker pull node -> https://hub.docker.com/_/node/
+
 docker pull httpd -> https://hub.docker.com/_/httpd/ 
+
 docker pull nginx -> https://hub.docker.com/_/nginx/
+
 docker pull debian -> https://hub.docker.com/_/debian/
+
 docker pull ubuntu -> https://hub.docker.com/_/ubuntu/
+
 docker pull fedora -> https://hub.docker.com/_/fedora/
+
 docker pull django ->  https://hub.docker.com/_/django/
+
 docker pull mongo -> https://hub.docker.com/_/mongo/
+
 docker pull mariadb -> https://hub.docker.com/_/mariadb/
+
 docker pull redis -> https://hub.docker.com/_/redis/
+
 docker pull cassandra -> https://hub.docker.com/_/cassandra/
+
 docker pull couchbase -> https://hub.docker.com/_/couchbase/
+
 docker pull drupal -> https://hub.docker.com/_/drupal/
+
 docker pull elasticsearch -> https://hub.docker.com/_/elasticsearch/
+
 docker pull php -> https://hub.docker.com/_/php/
+
 docker pull owncloud -> https://hub.docker.com/_/owncloud/ 
+
 docker pull jenkins -> https://hub.docker.com/_/jenkins/
+
+
 docker pull gitlab/gitlab-ce -> https://hub.docker.com/r/gitlab/gitlab-ce/ 
+
 docker pull sebp/elk -> https://hub.docker.com/r/sebp/elk/
+
 docker pull htdvisser/taiga-back -> https://hub.docker.com/r/htdvisser/taiga-back/
+
 docker pull htdvisser/taiga-front-dist -> https://hub.docker.com/r/htdvisser/taiga-front-dist/
+
 docker pull zabbix/zabbix-server-2.4 -> https://hub.docker.com/r/zabbix/zabbix-server-2.4/ 
+
 docker pull zabbix/zabbix-db-mariadb -> https://hub.docker.com/r/zabbix/zabbix-db-mariadb/
+
 docker pull coudot/lemonldap-ng -> https://hub.docker.com/r/coudot/lemonldap-ng/ 
+
 docker pull p0bailey/docker-flask -> https://hub.docker.com/r/p0bailey/docker-flask/
+
 docker pull dinkel/openldap -> https://hub.docker.com/r/dinkel/openldap/ 	
 
-# agregar todas las imagenes de un solo comando:
-
-// docker pull odoo && docker pull postgres && docker pull mysql && docker pull schmunk42/yii2-app-basic	&& docker pull wordpress && docker pull k3v0r/janus-gateway && docker pull node && docker pull httpd && docker pull nginx && docker pull debian && docker pull ubuntu && docker pull fedora && docker pull django && docker pull mongo && docker pull mariadb && docker pull redis && docker pull cassandra && docker pull couchbase && docker pull drupal && docker pull elasticsearch && docker pull php && docker pull owncloud && docker pull jenkins && docker pull gitlab/gitlab-ce && docker pull sebp/elk && docker pull htdvisser/taiga-back && docker pull  htdvisser/taiga-front-dist && docker pull zabbix/zabbix-server-2.4 && docker pull zabbix/zabbix-db-mariadb && docker pull coudot/lemonldap-ng && docker pull p0bailey/docker-flask && docker pull dinkel/openldap 
-
-
-
-
-#Pendientes 
 docker pull debian/debhelper -> todo lo necesario para empaquetar 
 
 
@@ -83,28 +107,32 @@ docker pull debian/debhelper -> todo lo necesario para empaquetar
 	# Proyectos en Wordpress 
 	docker run --name some-wordpress --link some-mysql:mysql -d wordpress
 
-	# Proyecto con Janus 
+//# agregar todas las imagenes de un solo comando:
 
-### Instalar Composer 
-https://styde.net/instalar-y-actualizar-paquetes-con-composer/
-http://librosweb.es/libro/composer/capitulo_1/instalacion_en_servidores_linux.html
+// docker pull odoo && docker pull postgres && docker pull mysql && docker pull schmunk42/yii2-app-basic	&& docker pull wordpress && docker pull k3v0r/janus-gateway && docker pull node && docker pull httpd && docker pull nginx && docker pull debian && docker pull ubuntu && docker pull fedora && docker pull django && docker pull mongo && docker pull mariadb && docker pull redis && docker pull cassandra && docker pull couchbase && docker pull drupal && docker pull elasticsearch && docker pull php && docker pull owncloud && docker pull jenkins && docker pull gitlab/gitlab-ce && docker pull sebp/elk && docker pull htdvisser/taiga-back && docker pull  htdvisser/taiga-front-dist && docker pull zabbix/zabbix-server-2.4 && docker pull zabbix/zabbix-db-mariadb && docker pull coudot/lemonldap-ng && docker pull p0bailey/docker-flask && docker pull dinkel/openldap 
 
+# Otras Opciones de entornos:
 
-### Agregar homestead 
-https://styde.net/crea-entornos-de-desarrollo-para-laravel-con-homestead/
-https://styde.net/como-instalar-y-configurar-laravel-homestead-2-0/
-
-
-vagrant box add laravel/homestead
-composer global require "laravel/homestead=~2.0"
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> /home/user/.bashrc
-
-### Instalar node 
-https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager?utm_source=[deliciuos]&utm_medium=twitter#debian-and-ubuntu-based-linux-distributions
+    # Instalar Composer 
+    https://styde.net/instalar-y-actualizar-paquetes-con-composer/
+    http://librosweb.es/libro/composer/capitulo_1/instalacion_en_servidores_linux.html
 
 
+    # Instalar homestead 
+    https://styde.net/crea-entornos-de-desarrollo-para-laravel-con-homestead/
+    https://styde.net/como-instalar-y-configurar-laravel-homestead-2-0/
+    vagrant box add laravel/homestead
+    composer global require "laravel/homestead=~2.0"
+    export PATH="$HOME/.composer/vendor/bin:$PATH"
+    echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> /home/user/.bashrc
 
+    # Instalar node 
+    https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager?	utm_source=[deliciuos]&utm_medium=twitter#debian-and-ubuntu-based-linux-distributions
+
+	# Setting up Django with Nginx, Gunicorn, virtualenv, supervisor and PostgreSQL
+    http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/
+
+	
 
 
 TIP: happy hacking!!!
