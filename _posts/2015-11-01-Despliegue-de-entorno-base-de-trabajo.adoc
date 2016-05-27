@@ -4,7 +4,7 @@ v1.0, 2015-11-01
 :toc:
 :imagesdir: assets/images
 :homepage: http://blog.javierleon.com.ve
-:hp-tags: Blog,Personal,Python,Pyve
+:hp-tags: Blog,Personal,Work,Php, Python, JS
 // Web page meta data.
 :keywords: Blog, Javier León, IT, Devops, Desarrollo, Sysadmin, Social, Networks, emprendimiento, Pagina Oficial,
 :description: Blog personal y Profesional, +
@@ -64,7 +64,7 @@ docker pull dinkel/openldap -> https://hub.docker.com/r/dinkel/openldap/
 
 # agregar todas las imagenes de un solo comando:
 
-docker pull odoo && docker pull postgres && docker pull mysql && docker pull schmunk42/yii2-app-basic	&& docker pull wordpress && docker pull k3v0r/janus-gateway && docker pull node && docker pull httpd && docker pull nginx && docker pull debian && docker pull ubuntu && docker pull fedora && docker pull django && docker pull mongo && docker pull mariadb && docker pull redis && docker pull cassandra && docker pull couchbase && docker pull drupal && docker pull elasticsearch && docker pull php && docker pull owncloud && docker pull jenkins && docker pull gitlab/gitlab-ce && docker pull sebp/elk && docker pull htdvisser/taiga-back && docker pull  htdvisser/taiga-front-dist && docker pull zabbix/zabbix-server-2.4 && docker pull zabbix/zabbix-db-mariadb && docker pull coudot/lemonldap-ng && docker pull p0bailey/docker-flask && docker pull dinkel/openldap 
+// docker pull odoo && docker pull postgres && docker pull mysql && docker pull schmunk42/yii2-app-basic	&& docker pull wordpress && docker pull k3v0r/janus-gateway && docker pull node && docker pull httpd && docker pull nginx && docker pull debian && docker pull ubuntu && docker pull fedora && docker pull django && docker pull mongo && docker pull mariadb && docker pull redis && docker pull cassandra && docker pull couchbase && docker pull drupal && docker pull elasticsearch && docker pull php && docker pull owncloud && docker pull jenkins && docker pull gitlab/gitlab-ce && docker pull sebp/elk && docker pull htdvisser/taiga-back && docker pull  htdvisser/taiga-front-dist && docker pull zabbix/zabbix-server-2.4 && docker pull zabbix/zabbix-db-mariadb && docker pull coudot/lemonldap-ng && docker pull p0bailey/docker-flask && docker pull dinkel/openldap 
 
 
 
